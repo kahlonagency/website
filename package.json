@@ -22,6 +22,9 @@
 		"type": "git",
 		"url": "https://github.com/kahlonagency/website.git"
 	},
+	"scripts": {
+		"lint": "biome check"
+	},
 	"trustedDependencies": ["@biomejs/biome"],
 	"type": "module",
 	"version": "0.0.0-development"

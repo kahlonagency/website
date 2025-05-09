@@ -3,6 +3,6 @@
 	"vcs": {
 		"clientKind": "git",
 		"enabled": true,
-		"root": ""
+		"useIgnoreFile": true
 	}
 }
