@@ -23,6 +23,7 @@
 		"url": "https://github.com/kahlonagency/website.git"
 	},
 	"scripts": {
+		"format": "biome check --write",
 		"lint": "biome check"
 	},
 	"trustedDependencies": ["@biomejs/biome"],
