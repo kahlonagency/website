@@ -8,6 +8,9 @@
 		"url": "https://github.com/kahlonagency/website/issues"
 	},
 	"description": "Kahlon Agency website source",
+	"devDependencies": {
+		"@biomejs/biome": "^1.9.4"
+	},
 	"imports": {
 		"#*": "./*"
 	},
@@ -19,6 +22,7 @@
 		"type": "git",
 		"url": "https://github.com/kahlonagency/website.git"
 	},
+	"trustedDependencies": ["@biomejs/biome"],
 	"type": "module",
 	"version": "0.0.0-development"
 }
