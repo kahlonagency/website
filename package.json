@@ -29,6 +29,7 @@
 	"scripts": {
 		"format": "biome check --write",
 		"lint": "biome check",
+		"setup": "bun --bun scripts/setup.ts",
 		"typecheck": "tsc"
 	},
 	"trustedDependencies": ["@biomejs/biome"],
