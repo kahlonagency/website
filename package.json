@@ -27,6 +27,7 @@
 		"url": "https://github.com/kahlonagency/website.git"
 	},
 	"scripts": {
+		"dev": "bun --hot server.ts",
 		"format": "biome check --write",
 		"lint": "biome check",
 		"setup": "bun --bun scripts/setup.ts",
