@@ -27,7 +27,8 @@
 	},
 	"scripts": {
 		"format": "biome check --write",
-		"lint": "biome check"
+		"lint": "biome check",
+		"typecheck": "tsc"
 	},
 	"trustedDependencies": ["@biomejs/biome"],
 	"type": "module",
