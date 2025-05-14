@@ -1,0 +1,24 @@
+{
+	"$schema": "https://json.schemastore.org/package.json",
+	"author": {
+		"email": "hunar.roop@gmail.com",
+		"name": "Hunar Roop Kahlon"
+	},
+	"bugs": {
+		"url": "https://github.com/kahlonagency/website/issues"
+	},
+	"description": "Kahlon Agency website source",
+	"imports": {
+		"#*": "./*"
+	},
+	"license": "MIT",
+	"name": "@kahlonagency/website",
+	"packageManager": "bun@1.2.13",
+	"private": true,
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/kahlonagency/website.git"
+	},
+	"type": "module",
+	"version": "0.0.0-development"
+}
