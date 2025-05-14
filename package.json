@@ -17,6 +17,9 @@
 	"license": "MIT",
 	"name": "@kahlonagency/website",
 	"packageManager": "bun@1.2.13",
+	"peerDependencies": {
+		"typescript": "^5.8.3"
+	},
 	"private": true,
 	"repository": {
 		"type": "git",
