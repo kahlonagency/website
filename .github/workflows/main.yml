@@ -1,0 +1,28 @@
+# yaml-language-server: $schema: https://json.schemastore.org/github-workflow.json
+
+concurrency:
+  cancel-in-progress: true
+  group: ${{ github.workflow }}-${{ github.ref }}
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+    - name: Setup biome
+      uses: biomejs/setup-biome@v2
+    - name: Run biome
+      run: biome ci
+
+on:
+  merge_group:
+  push:
+    branches:
+    - main
+    - next
+  pull_request:
+
+permissions:
+  actions: write
+  contents: read
